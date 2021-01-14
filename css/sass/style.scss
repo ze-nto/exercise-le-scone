@@ -1,8 +1,13 @@
-// @import 'reset';
-@import 'grid'; 
+//Gerais
 
-div{
-    font-family: 'Aref Ruqaa', serif;
+@import 'variaveis_mixins';
+@import 'reset';
+@import 'grid';
+@import 'geral'; 
 
-    font-family: 'PT Mono', monospace;
-}
+//Partes
+
+@import 'intro';
+@import 'menu';
+@import 'contato';
+@import 'footer';
